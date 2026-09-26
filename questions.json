@@ -1,0 +1,5363 @@
+[
+  {
+    "id": 1,
+    "type": "Scenario",
+    "question": "Your team has two conflicting ideas for a project. How do you decide which one to pursue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Test both ideas on a small scale first",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Ask a teacher or mentor to evaluate both",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Go with the idea that excites the team more",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "List pros and cons for each idea and compare",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Sketch a rough prototype of each to see which feels better",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Preference",
+    "question": "Which role would you enjoy most in a college festival?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coordinate the schedule and volunteers",
+        "contributes": {
+          "Logical_Score": 3,
+          "Leadership_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Manage the event budget and sponsors",
+        "contributes": {
+          "Business_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Design the stage and publicity posters",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Anchor the main stage event",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2,
+          "Technical_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Preference",
+    "question": "Which weekend project sounds most interesting to you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Build a simple website for a local business",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Plan a budget-friendly trip itinerary for friends",
+        "contributes": {
+          "Business_Interest": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Write a short story based on a dream you had",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Analyze data from a fitness tracker to find health patterns",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Research_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Behaviour",
+    "question": "When your study group is falling behind schedule, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suggest simplifying the project scope",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Step in to reorganize tasks and deadlines",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Offer to do extra work to help the team catch up",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Research new ways to complete tasks faster",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Create a fun visual progress chart to keep everyone motivated",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Technical_Interest": 2,
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Preference",
+    "question": "Which Saturday activity appeals to you the most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Write a short story or compose music",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Join a science workshop or seminar",
+        "contributes": {
+          "Research_Interest": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Play strategy-based board games with friends",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Plan a small business pop-up with friends",
+        "contributes": {
+          "Business_Interest": 5,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Scenario",
+    "question": "You see a viral social media post claiming a surprising health fact. What is your first reaction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Look for the original study or source of the claim",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Research_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Share it with friends to get their opinions",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Check if multiple news sources are reporting it",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ignore it unless it appears on official channels",
+        "contributes": {
+          "Research_Interest": 2,
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "type": "Preference",
+    "question": "If you had a free afternoon at a university campus, where would you go first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The innovation hub to see student startups",
+        "contributes": {
+          "Business_Interest": 4,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "The library to explore books on interesting topics",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "The research lab to see ongoing experiments",
+        "contributes": {
+          "Research_Interest": 5,
+          "Technical_Interest": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "The auditorium where a debate competition is happening",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "The computer lab to try out new software tools",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "type": "Behaviour",
+    "question": "When buying something online, what matters most to you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Checking if the brand's values match your own",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Reading detailed reviews and technical specifications",
+        "contributes": {
+          "Research_Interest": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Finding the best deal through price comparison",
+        "contributes": {
+          "Logical_Score": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Understanding what makes this product better than competitors",
+        "contributes": {
+          "Business_Interest": 5,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "type": "Aptitude",
+    "question": "A class plans a fundraiser selling lemonade. Each cup costs 10 to make. From a quick survey, they estimate sales of 80 cups if priced at 15 each, 50 cups if priced at 25 each, or 20 cups if priced at 40 each. Which price point will yield the highest profit?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 per cup, to sell the most cups",
+        "contributes": {
+          "Logical_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "40 per cup, for the highest margin per cup",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "25 per cup, for a balance of margin and volume",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Average the three prices and charge about 27 per cup",
+        "contributes": {
+          "Creativity_Score": 1,
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "Scenario",
+    "question": "Your friend is upset about a low grade. How do you respond?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suggest creating a study plan together",
+        "contributes": {
+          "Logical_Score": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Listen carefully and help them understand what went wrong",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Share your own struggles and how you handled them",
+        "contributes": {
+          "Communication_Score": 3,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Research better study techniques to recommend",
+        "contributes": {
+          "Research_Interest": 3,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Encourage them to talk to the teacher about extra credit options",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Technical_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "Preference",
+    "question": "Which news headline would you click on first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"Startup raises millions with zero-emission fuel\"",
+        "contributes": {
+          "Business_Interest": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "\"New AI model can detect diseases from X-rays\"",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Research_Interest": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "\"Scientists discover new species in deep ocean\"",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "\"How creative design is changing urban spaces\"",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "Scenario",
+    "question": "Your class is choosing a representative for a school council. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Help a shy friend prepare their speech",
+        "contributes": {
+          "Communication_Score": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Analyze each candidate's strengths and vote wisely",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Volunteer yourself and present your ideas",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Research what makes a good student representative",
+        "contributes": {
+          "Research_Interest": 3,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Design campaign posters and slogans for your preferred candidate",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "type": "Behaviour",
+    "question": "When decorating for a school event with a limited budget, you:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Find creative ways to reuse everyday items as decor",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Business_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Make a detailed plan and budget before starting",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask friends to contribute ideas and divide tasks",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Look up decoration ideas online for inspiration",
+        "contributes": {
+          "Research_Interest": 3,
+          "Creativity_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "type": "Scenario",
+    "question": "You notice that students in your class who sit in the front row get better grades. What do you conclude?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start sitting in the front row yourself",
+        "contributes": {
+          "Logical_Score": 2,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Front row students are probably more motivated",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "There could be multiple reasons — need more data to be sure",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Research_Interest": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "This is clearly a coincidence",
+        "contributes": {
+          "Creativity_Score": 1,
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "Preference",
+    "question": "If you could shadow a professional for a day, which role would you choose?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A data scientist analyzing trends at a tech company",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "A marketing director planning a product launch",
+        "contributes": {
+          "Business_Interest": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "A research scientist working in a university lab",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "An event manager coordinating a large conference",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "A documentary filmmaker telling untold stories",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "Aptitude",
+    "question": "All cats are mammals. Some pets are cats. Therefore:",
+    "options": [
+      {
+        "id": "A",
+        "text": "No conclusion can be drawn",
+        "contributes": {
+          "Creativity_Score": 1,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "All mammals are pets",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "All cats are pets",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Some pets are mammals",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "Behaviour",
+    "question": "When you come across a word you do not know while reading, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guess the meaning from the sentence",
+        "contributes": {
+          "Logical_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Look it up immediately and learn its origin",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask someone what it means",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Skip it and continue reading",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "Scenario",
+    "question": "Your school wants to reduce its electricity bill by going digital. What would you suggest first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Design posters and a social media challenge for energy savings",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Run a campaign to encourage everyone to switch off unused appliances",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Analyze past electricity bills to find waste patterns",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Build a simple app to track and display real-time energy usage",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Calculate the cost-benefit of switching to LED bulbs and solar panels",
+        "contributes": {
+          "Business_Interest": 3,
+          "Analytical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "Preference",
+    "question": "Which extracurricular role suits you best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Social media manager for the club",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Treasurer managing the club budget",
+        "contributes": {
+          "Business_Interest": 4,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Team captain for a sports competition",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Head of research and documentation",
+        "contributes": {
+          "Research_Interest": 4,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "Behaviour",
+    "question": "When explaining a concept to someone who is struggling, you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Break the explanation into smaller logical steps",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Draw diagrams or charts to make it visual",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Use different examples and analogies until they understand",
+        "contributes": {
+          "Communication_Score": 4,
+          "Creativity_Score": 2,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask them what part they do not understand first",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "type": "Scenario",
+    "question": "You are asked to make a presentation on climate change more engaging. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Include powerful stories and real-life examples",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Create an interactive game that simulates environmental impact",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Technical_Interest": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Gather the latest climate data and present it clearly",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Propose a small action project the audience can join",
+        "contributes": {
+          "Business_Interest": 2,
+          "Leadership_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": "Aptitude",
+    "question": "Your team has 80 to spend on a project. Supplies cost 40, refreshments cost 30, and decorations cost 30, totalling 100. If every category is reduced by the same percentage to fit the budget, what percentage reduction is needed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20%",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "25%",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "15%",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "10%",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "type": "Preference",
+    "question": "Which type of YouTube channel would you subscribe to?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debate and public speaking highlights",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Business case studies and startup stories",
+        "contributes": {
+          "Business_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Creative arts, design, and DIY projects",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Science experiments and explanations",
+        "contributes": {
+          "Research_Interest": 5,
+          "Technical_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "type": "Scenario",
+    "question": "Your friend's phone keeps crashing. What is your approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagnose the problem by checking settings and running diagnostics",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Research online forums to find others with the same issue",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Suggest visiting a service center",
+        "contributes": {
+          "Communication_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Tell them to restart and hope it fixes itself",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "type": "Behaviour",
+    "question": "During a group discussion, someone dominates the conversation. You:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Take notes and share them later with the group",
+        "contributes": {
+          "Research_Interest": 2,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Analyze whether the dominant person has valid points",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Wait for a pause and change the topic",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Politely invite quieter members to share their views",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "E",
+        "text": "Propose a round-robin format so everyone gets equal time",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "type": "Scenario",
+    "question": "Your school canteen is losing customers. How would you help?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Research successful school canteens and copy their approach",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Design a creative marketing campaign with posters and social media",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Create a loyalty card program to bring back regular customers",
+        "contributes": {
+          "Business_Interest": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Survey students to understand what they want and adjust the menu",
+        "contributes": {
+          "Business_Interest": 5,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "type": "Preference",
+    "question": "Which puzzle sounds most fun to solve?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A debate topic where you argue both sides",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "A creative writing prompt with no rules",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "A strategy game like chess or Sudoku",
+        "contributes": {
+          "Logical_Score": 4,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "A murder mystery where you connect clues",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "Behaviour",
+    "question": "When given a complex assignment, your first instinct is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brainstorm creative ideas for a unique approach",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Create a structured outline and timeline",
+        "contributes": {
+          "Logical_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Research the topic thoroughly before starting",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Discuss with classmates to divide the work",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "type": "Scenario",
+    "question": "You need to convince your parents to let you attend a workshop. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Create a creative video invitation for the workshop",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Show them reviews and testimonials from past attendees",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Offer to compromise by completing your chores first",
+        "contributes": {
+          "Business_Interest": 2,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Prepare a clear presentation explaining the benefits",
+        "contributes": {
+          "Communication_Score": 5,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "Aptitude",
+    "question": "Five friends want to split a pizza bill. The pizza costs 500. Three of them had a drink for 50 each, and two had dessert for 75 each. What is the fairest way to split?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Divide the total bill equally among all five",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Each person pays their own items plus an equal share of the pizza",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Let one person pay and everyone transfers them later",
+        "contributes": {
+          "Business_Interest": 1,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Round up each amount and put the extra toward a tip",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "type": "Scenario",
+    "question": "You are given a cardboard box, a roll of tape, and markers. What do you make?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A board game with rules and playing pieces",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "A model of a sustainable house",
+        "contributes": {
+          "Technical_Interest": 3,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "A donation box for a school charity drive",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "A puppet for a storytelling performance",
+        "contributes": {
+          "Communication_Score": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "A prototype of a product idea you could pitch to investors",
+        "contributes": {
+          "Business_Interest": 4,
+          "Creativity_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "type": "Scenario",
+    "question": "A classmate accidentally deleted their project file. What do you suggest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Try file recovery software or check the recycle bin",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Ask the classmate to redo the work from memory",
+        "contributes": {
+          "Communication_Score": 1,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Check if they saved backups on cloud storage or USB",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Help them recreate the work using a different approach",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "type": "Behaviour",
+    "question": "When you receive feedback on an assignment, you:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Read every comment carefully and look for patterns in mistakes",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Focus on the overall grade rather than details",
+        "contributes": {
+          "Business_Interest": 1,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask the teacher to explain the feedback in person",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Try a completely different approach next time",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "type": "Preference",
+    "question": "Which quality do you admire most in a leader?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The skill to communicate a clear vision",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "The ability to make fair decisions under pressure",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "The creativity to find unexpected solutions",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "The depth of knowledge in their field",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "Scenario",
+    "question": "A news article says a new drug can cure a common disease. What do you want to know next?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When will it be available in my country?",
+        "contributes": {
+          "Communication_Score": 2,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "How much will the treatment cost and will insurance cover it?",
+        "contributes": {
+          "Business_Interest": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "What are the side effects and who should avoid it?",
+        "contributes": {
+          "Technical_Interest": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "How was the clinical trial designed and how many people were tested?",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "E",
+        "text": "How does the drug compare to existing treatments in terms of effectiveness?",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Technical_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "type": "Behaviour",
+    "question": "At a school fundraiser, you notice one stall is much more popular than others. You:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Analyze what makes that stall successful and take notes",
+        "contributes": {
+          "Business_Interest": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Suggest improvements to the less popular stalls",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Design a better stall for next year's fundraiser",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask the popular stall owners what their secret is",
+        "contributes": {
+          "Research_Interest": 3,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "Scenario",
+    "question": "Your school is launching a competition to design a new school mascot. What would your approach be?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Form a team and assign roles for design, presentation, and budgeting",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Survey students about what qualities they want the mascot to represent",
+        "contributes": {
+          "Business_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Research mascots from other schools for inspiration",
+        "contributes": {
+          "Research_Interest": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Sketch several original mascot ideas combining different animals and traits",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "type": "Preference",
+    "question": "How would you prefer to share your opinion on a school policy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Speak at a student council meeting",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 3,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Write a well-researched letter to the principal",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Create a petition and gather signatures",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Make a short video explaining your viewpoint",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Technical_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "Scenario",
+    "question": "You find an old smartphone you no longer use. What do you do with it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repurpose it as a home security camera or media player",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Take it apart to understand how it works",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Sell it online and use the money for something useful",
+        "contributes": {
+          "Business_Interest": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Donate it to someone who needs it more",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "Aptitude",
+    "question": "You are preparing for two exams next week. Exam A on Monday covers topics 1 through 5. Exam B on Tuesday covers topics 3 through 7. Topics 3, 4, and 5 overlap between both exams. With limited study time, which topics should you prioritize to maximize your combined score?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Topics 3, 4, and 5, since studying them helps on both exams",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Topics 1 and 2, since Exam A comes first",
+        "contributes": {
+          "Logical_Score": 2,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Topics 6 and 7, since they are the newest material",
+        "contributes": {
+          "Logical_Score": 1,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "All topics equally, spending the same time on each",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "type": "Scenario",
+    "question": "Your bike chain snaps halfway through a long ride with no repair shop nearby. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Call someone to pick you up and end the ride",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Try to fix the chain yourself using tools from your bag",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask other cyclists passing by if they carry a spare link",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Walk the bike toward the nearest town while planning your route",
+        "contributes": {
+          "Logical_Score": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "E",
+        "text": "Look up a temporary fix using your phone",
+        "contributes": {
+          "Research_Interest": 4,
+          "Technical_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "type": "Scenario",
+    "question": "A spreadsheet formula you built for a class project keeps returning errors right before the deadline. What is your approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rebuild the formula from scratch using a different method",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Search online for common causes of that error message",
+        "contributes": {
+          "Research_Interest": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask a classmate who is good with spreadsheets for help",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Break the formula into smaller parts to isolate the error",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "type": "Scenario",
+    "question": "Your group project team is split between two different directions for the final presentation. What role do you take?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Present data on which direction fits the assignment criteria better",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Suggest combining elements of both directions",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Propose a vote so the team can decide democratically",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Let the more vocal members decide",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "E",
+        "text": "Schedule a separate meeting to discuss everyone's concerns",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "type": "Scenario",
+    "question": "You're working with teammates in different time zones on a shared assignment. How do you keep things on track?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Let each person work independently and combine results at the end",
+        "contributes": {
+          "Business_Interest": 1,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Record short video updates so no one misses context",
+        "contributes": {
+          "Communication_Score": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Identify overlapping hours and schedule a quick sync call",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Set up a shared document with clear task deadlines",
+        "contributes": {
+          "Logical_Score": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "Scenario",
+    "question": "During a school trip, your group gets separated and phones have no signal. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Retrace your steps carefully while looking for landmarks",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Stay exactly where you are and wait for someone to find you",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Take charge and decide on a meeting point based on the last known map",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask nearby people or shops for directions and help",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "type": "Scenario",
+    "question": "You're put in charge of organizing a class exhibition with only three days to prepare. What's your first move?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask the group what they'd each like to work on",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Handle the most critical tasks yourself to ensure quality",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Create a shared checklist so everyone can track progress",
+        "contributes": {
+          "Logical_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Break down the work and assign tasks based on people's strengths",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "Scenario",
+    "question": "You and a close friend disagree strongly about how to split credit on a joint assignment. How do you handle it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calmly explain your perspective and listen to theirs",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Suggest asking the teacher to decide fairly",
+        "contributes": {
+          "Communication_Score": 2,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Let it go to avoid damaging the friendship",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Propose splitting credit based on the actual work each person logged",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "type": "Scenario",
+    "question": "A misunderstanding causes your team to submit the wrong version of a project. How do you address it with the team?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Create a clearer communication process for future projects",
+        "contributes": {
+          "Logical_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Quietly fix it yourself without raising the issue",
+        "contributes": {
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Call a meeting to clarify what went wrong and prevent repeats",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Point out who caused the confusion so it doesn't happen again",
+        "contributes": {
+          "Communication_Score": 2,
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "type": "Scenario",
+    "question": "An app you use daily suddenly stops working after an update. What's your first step?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Check online forums or the app's support page for known issues",
+        "contributes": {
+          "Research_Interest": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Try basic fixes like restarting or reinstalling first",
+        "contributes": {
+          "Technical_Interest": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Find a workaround using a different app in the meantime",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Wait for the developers to release a fix",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "type": "Scenario",
+    "question": "Midway through printing an important assignment, the printer jams and won't respond. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Look up the exact printer model's troubleshooting steps",
+        "contributes": {
+          "Research_Interest": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Open it up and carefully clear the jam yourself",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Find another printer or device that can finish the job",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask someone nearby if they know how to fix it",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "type": "Scenario",
+    "question": "You're setting the price for handmade bracelets to sell at a school fair. How do you decide?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Check what similar sellers are charging nearby",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Calculate material costs and add a reasonable margin",
+        "contributes": {
+          "Business_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Set a price that reflects the time and creativity involved",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask a few friends what they'd be willing to pay",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "type": "Scenario",
+    "question": "You're launching a small tutoring service for juniors at your school. How do you get your first clients?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask satisfied students to refer their friends",
+        "contributes": {
+          "Communication_Score": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Offer a free trial session to build trust",
+        "contributes": {
+          "Business_Interest": 4,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Create flyers highlighting your results and pricing",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Post about it on social media with testimonials",
+        "contributes": {
+          "Technical_Interest": 2,
+          "Business_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "type": "Scenario",
+    "question": "Your survey results for a class project come back mixed, with no clear pattern. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dig deeper into subgroups to see if a pattern emerges",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Research_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Report the results honestly as inconclusive",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Collect more data to increase your sample size",
+        "contributes": {
+          "Research_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Interview a few participants to understand the mixed responses",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "type": "Scenario",
+    "question": "Two articles you're using for a research project make opposite claims about the same topic. How do you proceed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Check the credibility and methodology behind each source",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Present both viewpoints and let your reader decide",
+        "contributes": {
+          "Communication_Score": 3,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Look for a third, more recent source to settle the question",
+        "contributes": {
+          "Research_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Go with whichever source seems more popular",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "type": "Scenario",
+    "question": "You're asked to redesign your school's outdated library space on a small budget. What's your approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Research well-designed libraries for inspiration",
+        "contributes": {
+          "Research_Interest": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Survey students on what they'd actually use the space for",
+        "contributes": {
+          "Business_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Sketch a few creative layout concepts before deciding",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Focus on practical fixes like better lighting and seating first",
+        "contributes": {
+          "Logical_Score": 3,
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "type": "Scenario",
+    "question": "For a science fair project, you want to stand out from the usual volcano and battery models. What do you try?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Combine two unrelated fields into one unusual experiment",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Build something that solves a real problem at your school",
+        "contributes": {
+          "Technical_Interest": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Focus on a rigorous, well-documented version of a known experiment",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Design an interactive display that lets visitors participate",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "type": "Scenario",
+    "question": "You have three assignments due the same week, each requiring different amounts of effort. How do you plan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start with the hardest one first to get it out of the way",
+        "contributes": {
+          "Logical_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Rank them by deadline and difficulty, then schedule accordingly",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Work on all three a little each day to keep balance",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask teachers if any deadline can be adjusted",
+        "contributes": {
+          "Communication_Score": 3,
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "type": "Scenario",
+    "question": "Your club has a limited number of volunteers for an event with several tasks to cover. How do you assign people?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prioritize the most critical tasks and staff those first",
+        "contributes": {
+          "Logical_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Let volunteers choose whichever task interests them most",
+        "contributes": {
+          "Communication_Score": 2,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Match volunteers to tasks based on their strongest skills",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Rotate people through tasks so everyone gains experience",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "type": "Scenario",
+    "question": "During a timed quiz competition, you're stuck between two answers with seconds left. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pick the answer that matches a pattern from earlier questions",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Go with your gut instinct",
+        "contributes": {
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Quickly eliminate the option that seems least logical",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask your teammate for a quick opinion if that's allowed",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "type": "Scenario",
+    "question": "Minutes before your group presentation, your main slide file won't open. What do you do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Present from memory using printed notes as backup",
+        "contributes": {
+          "Communication_Score": 3,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Quickly rebuild the key points on a blank document or whiteboard",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask for a short delay while you fix the technical issue",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Divide the presentation so everyone speaks about what they remember",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "type": "Preference",
+    "question": "Which of these tech topics would you enjoy learning about most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Building your own website or app",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Cybersecurity and protecting data from hackers",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "How artificial intelligence makes decisions",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Research_Interest": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Designing user interfaces that are easy to use",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "type": "Preference",
+    "question": "If you got a free weekend workshop, which would you pick?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Robotics and hardware building",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "App development for mobile phones",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Data analysis and visualization tools",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Digital marketing and social media tools",
+        "contributes": {
+          "Business_Interest": 3,
+          "Technical_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "type": "Preference",
+    "question": "Which business idea would you be most excited to try?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A reselling business finding good deals and flipping them",
+        "contributes": {
+          "Business_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "A consulting service helping local shops go online",
+        "contributes": {
+          "Business_Interest": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "A subscription box service for a niche hobby",
+        "contributes": {
+          "Business_Interest": 5,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "A social enterprise that donates part of its profits",
+        "contributes": {
+          "Business_Interest": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "type": "Preference",
+    "question": "Which part of running a small business appeals to you most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coming up with the product or service idea",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Leading a team as the business grows",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Building relationships with customers and partners",
+        "contributes": {
+          "Communication_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Managing the numbers and making sure it's profitable",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Business_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "type": "Preference",
+    "question": "Which creative outlet would you enjoy exploring most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Graphic design and digital illustration",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Photography or videography",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Creative writing or storytelling",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Music production or composition",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Technical_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "type": "Preference",
+    "question": "Which kind of design project would you like to work on?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Redesigning a mobile app's interface",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Creating an animated short film",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Designing a logo and brand identity for a new company",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Designing a poster campaign for a social cause",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "type": "Preference",
+    "question": "You're asked to create content for a school social media page. What would you enjoy making most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A consistent visual theme and posting schedule",
+        "contributes": {
+          "Logical_Score": 2,
+          "Creativity_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Well-designed infographics summarizing events",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Interview-style posts featuring students and teachers",
+        "contributes": {
+          "Communication_Score": 4,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Short, funny videos that get shared around",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "type": "Preference",
+    "question": "Which kind of discovery would excite you most to read about?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A breakthrough in medical treatment",
+        "contributes": {
+          "Research_Interest": 4,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "A newly discovered species or ecosystem",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "An archaeological find that rewrites history",
+        "contributes": {
+          "Research_Interest": 5,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "A new theory in physics or mathematics",
+        "contributes": {
+          "Research_Interest": 4,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "type": "Preference",
+    "question": "Which type of long-term project would appeal to you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conducting original research on a topic you're curious about",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Tracking and documenting a phenomenon over months",
+        "contributes": {
+          "Research_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Interviewing experts to compile a report",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Building a device to test a hypothesis",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Research_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "type": "Preference",
+    "question": "Which task would you find most satisfying?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Building a spreadsheet model to forecast outcomes",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Finding patterns hidden in a large dataset",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Auditing a budget to catch errors",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Comparing options carefully before making a recommendation",
+        "contributes": {
+          "Logical_Score": 3,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "type": "Preference",
+    "question": "If given a messy dataset, what would you want to do with it first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Visualize it as a chart to understand it faster",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Look for the one number that matters most",
+        "contributes": {
+          "Logical_Score": 3,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Clean and organize it before drawing any conclusions",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Compare it against a similar dataset for context",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "type": "Preference",
+    "question": "Which social setting energizes you the most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Having a deep one-on-one conversation",
+        "contributes": {
+          "Communication_Score": 4,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Leading a group discussion or debate",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Presenting your work to an audience",
+        "contributes": {
+          "Communication_Score": 5,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Collaborating quietly with a small trusted team",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "type": "Preference",
+    "question": "Which communication skill would you most like to sharpen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Writing persuasively",
+        "contributes": {
+          "Communication_Score": 4,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Public speaking and presenting confidently",
+        "contributes": {
+          "Communication_Score": 5,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Negotiating and resolving disagreements",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Explaining complex ideas simply",
+        "contributes": {
+          "Communication_Score": 3,
+          "Analytical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "type": "Preference",
+    "question": "Which leadership responsibility would you feel most drawn to?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Setting the vision and direction for a group",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Making sure the team stays organized and on schedule",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Mentoring newer or less experienced members",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Representing the group in front of others",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "type": "Preference",
+    "question": "In a club you're part of, which position would you want to run for?",
+    "options": [
+      {
+        "id": "A",
+        "text": "President, setting the overall direction",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Treasurer, managing funds and budgets",
+        "contributes": {
+          "Business_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Events coordinator, planning activities",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Secretary, keeping records and communication organized",
+        "contributes": {
+          "Logical_Score": 3,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "type": "Preference",
+    "question": "Which kind of puzzle or challenge do you enjoy most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Logic puzzles with a single correct solution",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Open-ended challenges with many possible solutions",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Real-world problems affecting your community",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Technical problems involving how things work",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "type": "Preference",
+    "question": "Which type of escape room would you want to try?",
+    "options": [
+      {
+        "id": "A",
+        "text": "One built entirely around logic and number puzzles",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "One that requires creative lateral thinking",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "One where teamwork and communication are essential",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "One involving technical gadgets and mechanisms",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "type": "Preference",
+    "question": "Which learning environment helps you do your best work?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A lively space with lots of group discussion",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "A quiet space where you can focus alone",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "A hands-on lab or workshop setting",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "A flexible space where you can move between tasks",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "type": "Preference",
+    "question": "How do you prefer to learn something new?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Discussing it with others until it clicks",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Watching someone demonstrate it, then trying it yourself",
+        "contributes": {
+          "Technical_Interest": 3,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Reading in depth and taking detailed notes",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Experimenting on your own through trial and error",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "type": "Preference",
+    "question": "Which kind of internship would appeal to you most?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A structured corporate internship with clear processes",
+        "contributes": {
+          "Business_Interest": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "A fast-paced startup where roles constantly shift",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "A creative studio working on client projects",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "A research lab with an ongoing long-term project",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "type": "Preference",
+    "question": "Which statement about trying new things resonates most with you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I prefer to study something thoroughly before trying it",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "I like testing an idea quickly, even if it might fail",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "I enjoy improving on things that already work well",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "I like combining ideas from different fields",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Research_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "type": "Preference",
+    "question": "Which of these would you rather spend a free afternoon doing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sketching out a new product or app idea",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Tinkering with a gadget to see how to improve it",
+        "contributes": {
+          "Technical_Interest": 5,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Reading about a cutting-edge scientific breakthrough",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Trying an entirely new hobby you've never done before",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "type": "Preference",
+    "question": "When you see an everyday object, how do you usually think about it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rarely thinking about it beyond its basic use",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Curious about how it was made or how it functions",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Thinking about whether it's a good value for money",
+        "contributes": {
+          "Business_Interest": 4,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Wondering how it could be redesigned to work better",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Technical_Interest": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "type": "Behaviour",
+    "question": "When working in a group where everyone has different working styles, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adapt your style to match the group's flow",
+        "contributes": {
+          "Communication_Score": 3,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Focus on your own part and trust others to handle theirs",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Suggest a system that works for everyone",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Check in regularly to make sure everyone's aligned",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "type": "Behaviour",
+    "question": "In a team project, when someone finishes their part early, you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Start exploring extra ideas that could add value",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Use the extra time to review and improve your own part",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Offer to help teammates who are still working",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "Wait until everyone else finishes before doing anything else",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "type": "Behaviour",
+    "question": "When no one takes charge in a group activity, you typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suggest a plan without necessarily taking the lead role",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Wait to see if someone else takes the lead first",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Quietly start doing the work that needs to happen",
+        "contributes": {
+          "Technical_Interest": 2,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Step up and start organizing the group",
+        "contributes": {
+          "Leadership_Score": 5,
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "type": "Behaviour",
+    "question": "As an informal leader, what do you focus on most when a group task goes wrong?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Figuring out what caused the problem before acting",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Keeping the team's morale up while fixing it",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Taking quick action to minimize further damage",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Consulting the team before deciding what to do next",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "type": "Behaviour",
+    "question": "When you have to deliver bad news to a group, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask someone else to help you deliver it",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Soften the message and focus on next steps",
+        "contributes": {
+          "Communication_Score": 3,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Be direct and explain the situation clearly",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Prepare data or reasons to support the news",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "type": "Behaviour",
+    "question": "When you're explaining your idea and people seem confused, you:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask what specifically is unclear",
+        "contributes": {
+          "Communication_Score": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Rephrase it using a different example",
+        "contributes": {
+          "Communication_Score": 4,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Write it down so they can review it at their own pace",
+        "contributes": {
+          "Logical_Score": 2,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Move on and hope it makes sense later",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "type": "Behaviour",
+    "question": "When two friends in your group are arguing over how to proceed, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stay neutral and let them work it out",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Help them find a middle ground",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Present a logical case for the better option",
+        "contributes": {
+          "Logical_Score": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Suggest taking a short break before continuing the discussion",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "type": "Behaviour",
+    "question": "When you strongly disagree with a group decision, you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Propose an alternative with supporting reasons",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Go along with it to avoid conflict",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Voice your concerns clearly before the decision is finalized",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Accept it but bring it up again if problems arise",
+        "contributes": {
+          "Communication_Score": 2,
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "type": "Behaviour",
+    "question": "When a deadline is moved up unexpectedly, your first reaction is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rally the team to redistribute the workload",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Feel stressed but push through with extra effort",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask if any part of the requirement can be simplified",
+        "contributes": {
+          "Communication_Score": 2,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Reprioritize tasks immediately based on what's essential",
+        "contributes": {
+          "Logical_Score": 4,
+          "Leadership_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "type": "Behaviour",
+    "question": "During a high-pressure exam, if you run out of time on a section, you:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quickly answer the remaining questions with your best guess",
+        "contributes": {
+          "Logical_Score": 2,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Stay calm and work through as many as possible methodically",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Focus on finishing the questions you're most confident about",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Feel rattled and lose focus on the rest",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "type": "Behaviour",
+    "question": "How do you usually keep track of multiple ongoing tasks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A detailed written schedule or planner",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Mental notes, adjusting as you go",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Digital tools and reminder apps",
+        "contributes": {
+          "Technical_Interest": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Sticky notes and visual reminders",
+        "contributes": {
+          "Creativity_Score": 2,
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "type": "Behaviour",
+    "question": "Before starting a big project, you typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Break it into smaller milestones with target dates",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Dive in and figure out the structure as you go",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Research how others have approached similar projects",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Discuss the plan with others before committing to one",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "type": "Behaviour",
+    "question": "If you notice a recurring problem that no one has addressed, you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Take the initiative to propose a solution",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Mention it to someone in charge and let them decide",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Research the root cause before suggesting anything",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Leave it alone unless it directly affects you",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "type": "Behaviour",
+    "question": "When your teacher mentions an optional extra-credit project, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait to see if it's worth the extra effort first",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Start planning it right away if it interests you",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask classmates if they want to collaborate on it",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Skip it unless it's required",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "type": "Behaviour",
+    "question": "When given an open-ended assignment with minimal instructions, you:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Research similar past assignments for guidance",
+        "contributes": {
+          "Research_Interest": 3,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Seek clarification before starting to avoid mistakes",
+        "contributes": {
+          "Communication_Score": 2,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Prefer to define your own approach and direction",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask a friend how they're approaching it first",
+        "contributes": {
+          "Communication_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "type": "Behaviour",
+    "question": "After failing to reach a goal you worked hard for, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Set a new, more realistic goal and adjust your plan",
+        "contributes": {
+          "Logical_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Take a short break before trying again",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask for feedback from someone more experienced",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Analyze what went wrong to improve next time",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "type": "Behaviour",
+    "question": "When a project you led doesn't go as planned, you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Focus on what the team can learn from it together",
+        "contributes": {
+          "Leadership_Score": 3,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Take responsibility and explain what you'll change next time",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Look closely at the data to understand exactly what failed",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Move on quickly and avoid dwelling on it",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "type": "Behaviour",
+    "question": "When plans change suddenly right before an event, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ask the group to pause and reassess together",
+        "contributes": {
+          "Leadership_Score": 2,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Feel thrown off but adapt after a moment",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Come up with a backup plan on the spot",
+        "contributes": {
+          "Creativity_Score": 4,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Adjust quickly and figure out the next best step",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "type": "Behaviour",
+    "question": "When you move to a completely new environment (new school, new city), you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observe first and adjust your approach gradually",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Research the new environment beforehand to prepare",
+        "contributes": {
+          "Research_Interest": 4,
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Jump in and start meeting people quickly",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Stick to familiar routines as much as possible",
+        "contributes": {
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "type": "Behaviour",
+    "question": "When choosing between two good options with no clear right answer, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pick the option that's less risky",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Go with whichever feels more exciting",
+        "contributes": {
+          "Creativity_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask someone you trust for their opinion",
+        "contributes": {
+          "Communication_Score": 3,
+          "Leadership_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "List out pros and cons systematically",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "type": "Behaviour",
+    "question": "When making a decision that affects a group, you typically:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Look at what data or past experience suggests",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Make the call yourself and explain your reasoning after",
+        "contributes": {
+          "Leadership_Score": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Gather input from everyone before deciding",
+        "contributes": {
+          "Communication_Score": 4,
+          "Leadership_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Weigh the decision based on what's fair to everyone",
+        "contributes": {
+          "Communication_Score": 2,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "type": "Behaviour",
+    "question": "When you don't understand why something happens, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Look it up right away until you find a satisfying answer",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Ask someone who might know",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Form your own theory and test it if possible",
+        "contributes": {
+          "Analytical_Score": 3,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Move on without needing to know the exact reason",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "type": "Behaviour",
+    "question": "When a documentary or article introduces a new topic, you tend to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Look up more sources to learn beyond what was covered",
+        "contributes": {
+          "Research_Interest": 5,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Discuss it with friends to see what they think",
+        "contributes": {
+          "Communication_Score": 3,
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Note it as interesting but not explore it further",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Try to connect it to something you already know",
+        "contributes": {
+          "Analytical_Score": 2,
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "type": "Behaviour",
+    "question": "When faced with a blank page or empty canvas for a creative task, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sketch a rough outline before diving in",
+        "contributes": {
+          "Creativity_Score": 3,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Start experimenting immediately without a fixed plan",
+        "contributes": {
+          "Creativity_Score": 5,
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Look at examples for inspiration first",
+        "contributes": {
+          "Research_Interest": 3,
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Feel stuck until an idea suddenly clicks",
+        "contributes": {
+          "Creativity_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "type": "Behaviour",
+    "question": "When a piece of equipment or software behaves unexpectedly, you usually:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Search for others who've had the same issue online",
+        "contributes": {
+          "Research_Interest": 3,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Methodically test each setting to isolate the cause",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "Restart or reset it and see if that resolves things",
+        "contributes": {
+          "Logical_Score": 2,
+          "Technical_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ask someone more experienced to take a look",
+        "contributes": {
+          "Communication_Score": 2,
+          "Technical_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "type": "Aptitude",
+    "question": "If it rains, the school match is postponed. It did not rain today. What can you conclude about the match?",
+    "options": [
+      {
+        "id": "A",
+        "text": "We cannot be certain whether the match was postponed or not",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "The match was definitely not postponed",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "The match was definitely postponed",
+        "contributes": {
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "The rain must have stopped just before the match",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "type": "Aptitude",
+    "question": "Everyone in the design team uses Tool X. Priya uses Tool X. Therefore:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Priya must be on the design team",
+        "contributes": {
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Priya works in the same office as the design team",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "No one outside the design team uses Tool X",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "We cannot conclude Priya is on the design team just from this",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "type": "Aptitude",
+    "question": "\"No student who skips class passes the final exam.\" Rohan passed the final exam. What can you conclude?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rohan did not skip class",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Rohan skipped class occasionally",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Rohan is the top student in the class",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "The original statement must be false",
+        "contributes": {
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "type": "Aptitude",
+    "question": "Three friends, Aisha, Ben, and Chen, sit in a row of three seats. Aisha is not at either end. Ben is seated to the left of Aisha. Who is seated at the right end?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cannot be determined from the given information",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Ben",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Aisha",
+        "contributes": {
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Chen",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "type": "Aptitude",
+    "question": "Some doctors at the hospital are researchers. All researchers there are required to publish papers. Which statement must be true?",
+    "options": [
+      {
+        "id": "A",
+        "text": "All doctors at the hospital publish papers",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Some doctors at the hospital publish papers",
+        "contributes": {
+          "Logical_Score": 5,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "C",
+        "text": "No doctors at the hospital publish papers",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Everyone who publishes papers is a doctor",
+        "contributes": {
+          "Logical_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "type": "Aptitude",
+    "question": "A school's total enrollment increased by 10% this year, but the number of students in the science stream decreased. What can you validly infer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fewer students nationwide are interested in science",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "The proportion of students in other streams increased",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "The school removed the science stream",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "The number of teachers at the school must have decreased",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "type": "Aptitude",
+    "question": "A company's sales increased every quarter for two years, but its profit stayed roughly flat. Which explanation best fits this pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The company must be committing fraud",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Costs likely increased at a similar rate to sales",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "The sales figures were probably reported incorrectly",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Profit and sales are unrelated measures",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "type": "Aptitude",
+    "question": "Two students score the same average across five tests, but one has far more consistent scores than the other. What does this tell you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The inconsistent student is definitely weaker overall",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "One student's performance is more predictable despite the equal average",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Averages are not a valid way to compare students",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "The consistent student studies harder than the other",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "type": "Aptitude",
+    "question": "A store notices umbrella sales and sunglasses sales both spike in certain months, but never the same months. What's the most reasonable explanation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The store must be pricing the two items incorrectly",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Weather patterns likely drive both trends in opposite directions",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Research_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Customers dislike buying both items together",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "The two trends are unrelated coincidences",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "type": "Aptitude",
+    "question": "A survey finds people who exercise regularly report higher happiness levels. What is the most careful conclusion?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The survey results are meaningless",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Exercise directly causes happiness",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Happier people are more likely to lie on surveys",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Exercise and happiness are correlated, but this alone doesn't prove causation",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Research_Interest": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "type": "Aptitude",
+    "question": "What comes next in the sequence: 2, 6, 12, 20, 30, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "44",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "40",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "36",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "42",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "type": "Aptitude",
+    "question": "Which shape logically completes the repeating pattern: circle, square, triangle, circle, square, triangle, circle, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "circle",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "square",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "triangle",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "pentagon",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "type": "Aptitude",
+    "question": "Find the number that doesn't belong: 4, 8, 16, 32, 48, 64",
+    "options": [
+      {
+        "id": "A",
+        "text": "64",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "32",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "16",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "48",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "type": "Aptitude",
+    "question": "Look at the pattern: AB, DE, GH, JK, ?. What comes next?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KL",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "LM",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "NO",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "MN",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "type": "Aptitude",
+    "question": "A company's quarterly revenue (in lakh rupees) was Q1: 50, Q2: 65, Q3: 60, Q4: 80. Which quarter had the largest percentage increase over the previous quarter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q2",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Q4",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Q3",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "All quarters increased by the same percentage",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "type": "Aptitude",
+    "question": "A school has these streams and teacher counts: Science 140 students / 4 teachers, Commerce 90 students / 3 teachers, Arts 60 students / 2 teachers, Vocational 30 students / 1 teacher. Which stream has the highest students-per-teacher ratio?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Science",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Commerce",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Arts",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Vocational",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "type": "Aptitude",
+    "question": "Average monthly rainfall (mm) was June 180, July 300, August 250, September 120. Between which two consecutive months was the decline in rainfall sharpest?",
+    "options": [
+      {
+        "id": "A",
+        "text": "June to July",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "August to September",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "July to August",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Rainfall increased every month",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "type": "Aptitude",
+    "question": "A survey of 200 students found 90 prefer online classes and 70 prefer in-person classes; the rest are neutral. What percentage of students are neutral?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40%",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "30%",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "15%",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "20%",
+        "contributes": {
+          "Analytical_Score": 5,
+          "Logical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "type": "Aptitude",
+    "question": "You need to organize a college fest with five major components: venue booking, sponsorships, event schedule, marketing, and volunteer management. What is the most effective way to start?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until sponsorships are confirmed before planning anything else",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Start working on whichever component feels most urgent right now",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Try to handle all five components together at the same time",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Break the fest into these five workstreams and assign an owner to each",
+        "contributes": {
+          "Logical_Score": 4,
+          "Leadership_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "type": "Aptitude",
+    "question": "A research report needs sections on background, methodology, results, and conclusion, but you're unsure where to begin. What is the most efficient approach?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wait until you have every data point before writing anything",
+        "contributes": {
+          "Research_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Write the conclusion first because it's usually the shortest section",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Start writing continuously without an outline and organize it later",
+        "contributes": {
+          "Creativity_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Outline all four sections first, then fill in details systematically",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "type": "Aptitude",
+    "question": "A software bug is affecting multiple features of an app at the same time. What is the most systematic way to find the cause?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isolate and test each feature separately to trace where the bug originates",
+        "contributes": {
+          "Logical_Score": 4,
+          "Technical_Interest": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Rewrite the entire app to eliminate the bug",
+        "contributes": {
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Ask users which feature bothers them most and fix that first",
+        "contributes": {
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Ignore minor features and only fix the most visible one",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "type": "Aptitude",
+    "question": "A train travels 240 km in 4 hours at a constant speed. At the same speed, how long would it take to travel 360 km?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 hours",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "5 hours",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "8 hours",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "7 hours",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "type": "Aptitude",
+    "question": "A shopkeeper buys an item for 400 and sells it for 500. What is the profit percentage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "20%",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "25%",
+        "contributes": {
+          "Logical_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "15%",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "type": "Aptitude",
+    "question": "6 workers can finish a task in 10 days. Assuming the same work rate per person, how many days would 4 workers take to finish the same task?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 days",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "12 days",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "15 days",
+        "contributes": {
+          "Logical_Score": 4,
+          "Analytical_Score": 3
+        }
+      },
+      {
+        "id": "D",
+        "text": "8 days",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "type": "Aptitude",
+    "question": "You have four tasks due this week: one urgent and important, one important but not urgent, one urgent but minor, and one neither urgent nor important. Which should you generally prioritize first?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whichever task takes the least time overall",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "The task that is urgent but minor, since it's quick to finish",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "The task that is important but not urgent, to get ahead of schedule",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "The task that is both urgent and important",
+        "contributes": {
+          "Logical_Score": 4,
+          "Leadership_Score": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "type": "Aptitude",
+    "question": "A software team has limited time before release and must choose between fixing a critical bug that severely affects 5% of users, or adding a popular feature many users have requested. Which is generally the wiser priority?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Add the new feature since it affects a larger number of users",
+        "contributes": {
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": "Fix the critical bug first, since severe issues can damage trust even if few are affected",
+        "contributes": {
+          "Logical_Score": 4,
+          "Business_Interest": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": "Do neither until there is more time or budget available",
+        "contributes": {
+          "Analytical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Split the remaining time evenly between both regardless of severity",
+        "contributes": {
+          "Business_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "type": "Aptitude",
+    "question": "You want a system that automatically turns off a room's lights when no one has been present for 5 minutes. Which type of sensor would be most directly useful?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sound sensor",
+        "contributes": {
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "Temperature sensor",
+        "contributes": {
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Motion sensor",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Logical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "Light sensor",
+        "contributes": {
+          "Technical_Interest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "type": "Aptitude",
+    "question": "A website loads very slowly only on pages that have many images. What is the most likely underlying cause?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Too many people are visiting the website at once",
+        "contributes": {
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "The website's text content is too long",
+        "contributes": {
+          "Technical_Interest": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "The images are too large in file size and need compressing",
+        "contributes": {
+          "Technical_Interest": 4,
+          "Analytical_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "The website's color scheme is too complex",
+        "contributes": {
+          "Creativity_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "type": "Aptitude",
+    "question": "Which sentence is most logically clear and well-structured?",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"Next week for the presentation the meeting postponed we rescheduled.\"",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": "\"The meeting we rescheduled, postponed being the presentation for next week because.\"",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "\"Because the meeting was postponed, we rescheduled our presentation for next week.\"",
+        "contributes": {
+          "Logical_Score": 4,
+          "Communication_Score": 2
+        }
+      },
+      {
+        "id": "D",
+        "text": "\"Postponed, meeting rescheduled we our presentation next week.\"",
+        "contributes": {
+          "Communication_Score": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "type": "Aptitude",
+    "question": "Which word does not belong with the others: Analyze, Evaluate, Examine, Assume?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume",
+        "contributes": {
+          "Analytical_Score": 4,
+          "Logical_Score": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": "Analyze",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": "Evaluate",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      },
+      {
+        "id": "D",
+        "text": "Examine",
+        "contributes": {
+          "Logical_Score": 1
+        }
+      }
+    ]
+  }
+]

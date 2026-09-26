@@ -1,0 +1,15 @@
+{
+  "total_rows": 86000,
+  "total_classes": 113,
+  "exact_duplicate_groups": 125,
+  "rows_in_duplicates": 250,
+  "conflicting_duplicate_groups": 114,
+  "rows_with_conflicting_labels": 228,
+  "nn_label_agreement_mean_pct": 5.11,
+  "nn_label_agreement_median_pct": 0.0,
+  "cluster_purity_mean_pct": 9.44,
+  "silhouette_score": 0.1963,
+  "upper_bound_accuracy_nn_pct": 5.11,
+  "upper_bound_accuracy_cluster_pct": 9.44,
+  "overlapping_courses_between_streams": 20
+}

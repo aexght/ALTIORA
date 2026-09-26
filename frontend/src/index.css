@@ -1,0 +1,115 @@
+/* ===================================================================
+   ALTIORA — Design System (Tailwind CSS v4)
+   Premium · Minimal · Editorial · Monochrome
+   =================================================================== */
+
+@import "tailwindcss";
+
+/* ─── Design Tokens ─────────────────────────────────────────────── */
+
+@theme {
+  /* Brand — monochrome palette */
+  --color-primary: #18181b;
+  --color-primary-hover: #27272a;
+  --color-primary-light: #f4f4f5;
+  --color-primary-50: #fafafa;
+
+  /* Accent — restrained warm tone for subtle highlights */
+  --color-accent: #78716c;
+  --color-accent-light: #f5f5f4;
+
+  /* Semantic */
+  --color-success: #16a34a;
+  --color-success-light: #f0fdf4;
+  --color-warning: #d97706;
+  --color-warning-light: #fffbeb;
+  --color-danger: #b91c1c;
+  --color-danger-light: #fef2f2;
+
+  /* Surfaces
+     bg-stone-50   = page background (warm white)
+     bg-white      = cards / surfaces
+     border-stone-200 = borders
+  */
+
+  /* Radii — restrained */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows — very subtle */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-elevated: 0 4px 16px rgba(0, 0, 0, 0.06);
+
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif;
+}
+
+/* ─── Base Resets ────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: #18181b;
+  background-color: #fafaf9;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* ─── Focus Ring — visible, elegant ──────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid #18181b;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Selection ──────────────────────────────────────────────────── */
+
+::selection {
+  background-color: #e7e5e4;
+  color: #18181b;
+}
+
+/* ─── Marble-like background texture (subtle CSS-only) ───────────── */
+
+.altiora-bg {
+  background-color: #fafaf9;
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(214, 211, 209, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(214, 211, 209, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(231, 229, 228, 0.12) 0%, transparent 50%);
+}
+
+/* ─── Print ──────────────────────────────────────────────────────── */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 12px;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-break {
+    page-break-before: always;
+  }
+}

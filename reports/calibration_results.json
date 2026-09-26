@@ -1,0 +1,11 @@
+{
+  "uncalibrated_log_loss": 0.947063,
+  "uncalibrated_brier": 0.048954,
+  "isotonic_log_loss": 0.908557,
+  "isotonic_brier": 0.047777,
+  "sigmoid_log_loss": 0.984589,
+  "sigmoid_brier": 0.048412,
+  "log_loss_improvement_isotonic_pct": 4.07,
+  "log_loss_improvement_sigmoid_pct": -3.96,
+  "use_calibration": false
+}
